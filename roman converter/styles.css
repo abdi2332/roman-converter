@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(59, 53, 53);
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    background-color: rgb(30, 35, 41);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#number{
+    padding: 4px 8px 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#convert-btn{
+    background-color: black;
+    color: whitesmoke;
+    padding: 4px 10px 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#output{
+    display: none;
+    border: 2px solid whitesmoke;
+    max-width: 200px;
+   margin: 10px auto 10px;
+    font-size: larger;
+    color: aliceblue;
+    padding: 5px 35px 5px;
+}
